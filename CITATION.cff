@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "FD-FLIM using Unsupervised Linear Unmixing and Machine Learning"
+message: "If you use this code or data, please cite it as below."
+type: software
+authors:
+  - {family-names: Campos-Delgado, given-names: Daniel Ulises}
+  - {family-names: Cardenas, given-names: Jorge D.}
+  - {family-names: Velazquez-Duran, given-names: Miguel}
+  - {family-names: Gutierrez-Navarro, given-names: Omar}
+  - {family-names: Mirnia, given-names: Seyed Edriss}
+  - {family-names: Huynh, given-names: Carissa}
+  - {family-names: Li, given-names: Yuan}
+  - {family-names: Ramanujan, given-names: V. Krishnan}
+  - {family-names: Jo, given-names: Javier A.}
+repository-code: "https://github.com/MJVD-FC/FD-FLIM-using-Unsupervised-Linear-Unmixing-and-Machine-Learning"
+doi: 10.5281/zenodo.24144420
