@@ -182,13 +182,7 @@ Each sample is a tensor of **160 × 160 pixels × 63 features** from seven excit
 - **`ModelML_LOOCV.m`** — leave-one-out cross-validation of the three classifiers (Table V), with the list of misclassified samples and the confusion charts.
 - **`Significance_Fried_5Fold.m`** — Friedman test (and multiple comparisons when significant) on the 5-fold metrics (Table IV).
 
-## Implementation notes
 
-- **Classifiers.** Bagged trees: `fitcensemble`, 400 learning cycles. Random forest: `TreeBagger`, 100 trees, default `MinLeafSize`. Boosting trees: AdaBoostM1, 50 learning cycles, learning rate 0.1, `MaxNumSplits = 1` (decision stumps).
-- **Reproducibility.** Serial execution (`UseParallel = false`) and `rng(42)` at the beginning of the scripts. For a fixed `DatabaseNum.mat`, the results are the same on every run with the same MATLAB release; small differences between MATLAB releases are possible.
-- **Validation units.** Cross-validation is done on the 85 segmented regions (observations) coming from the 51 samples (49 non-tumor and 36 tumor); folds are random and not stratified.
-- **Metrics.** Precision, recall and F1-score are computed taking *non-tumor* as the positive class; accuracy does not depend on this choice.
-- **Sample selection.** The original acquisition has 71 specimens; the 20 specimens with necrosis/hemorrhage ≥ 5 % were excluded, leaving the 51 samples of this study, renumbered from 1 to 51 (the numbering of Table I).
 
 ## Citation
 
