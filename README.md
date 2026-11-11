@@ -12,7 +12,8 @@
 Code and data to reproduce the results of the manuscript submitted to **PLOS ONE**.
 
 **Authors:** Daniel Ulises Campos-Delgado, Jorge D. Cardenas, Miguel Velazquez-Duran, Omar Gutierrez-Navarro, Seyed Edriss Mirnia, Carissa Huynh, Yuan Li, V. Krishnan Ramanujan and Javier A. Jo.
-**Contact:** miguel.duran@uaslp.mx
+**Contact:** 
+<!--miguel.duran@uaslp.mx-->
 
 ---
 
