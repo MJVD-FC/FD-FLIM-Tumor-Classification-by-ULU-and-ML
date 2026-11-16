@@ -41,16 +41,16 @@ The pipeline has three stages:
 
 | Classifier | Accuracy | Precision | Recall | F1-score |
 |---|---|---|---|---|
-| Bagged trees | 85.88 ± 12.20 % | 88.97 ± 16.95 % | 90.00 ± 6.09 % | 88.56 ± 8.99 % |
-| Random forest | 82.35 ± 15.00 % | 87.39 ± 17.66 % | 86.67 ± 12.17 % | 85.56 ± 10.78 % |
+| Bagged trees | 84.71 ± 14.76 % | 88.10 ± 18.75 % | 90.00 ± 6.09 % | 87.92 ± 10.39 % |
+| Random forest | 83.53 ± 14.04 % | 88.10 ± 18.75 % | 87.78 ± 8.24 % | 86.60 ± 9.81 % |
 | Boosting trees | 82.35 ± 11.00 % | 82.47 ± 13.94 % | 89.44 ± 7.95 % | 85.17 ± 8.75 % |
 
 **Leave-one-out cross-validation**
 
 | Classifier | Accuracy | Precision | Recall | F1-score |
 |---|---|---|---|---|
-| Bagged trees | 87.06 % | 88.00 % | 89.80 % | 88.89 % |
-| Random forest | 84.71 % | 84.62 % | 89.80 % | 87.13 % |
+| Bagged trees | 88.24 % | 89.80 % | 89.80 % | 89.80 % |
+| Random forest | 87.06 % | 88.00 % | 89.80 % | 88.89 % |
 | Boosting trees | 84.71 % | 83.33 % | 91.84 % | 87.38 % |
 
 Bagged trees obtained the numerically highest performance in both schemes; the Friedman test showed no statistically significant differences among classifiers in 5-fold CV.
